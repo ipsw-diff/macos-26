@@ -1,0 +1,29 @@
+{
+  "device": "UniversalMac",
+  "from": {
+    "build": "25F71",
+    "input": "UniversalMac_26.5_25F71_Restore.ipsw",
+    "version": "26.5"
+  },
+  "id": "macos-26.5.1-25F71-25F80",
+  "major_version": 26,
+  "payload": {
+    "entrypoint": "diffs/26_5_25F71__vs_26_5_1_25F80/README.md",
+    "git_tree": "d33808d3d71d28eaa432edc0be7be8abd6b4a09d",
+    "logical_bytes": 13137,
+    "path": "diffs/26_5_25F71__vs_26_5_1_25F80",
+    "tracked_file_count": 1
+  },
+  "platform": "macOS",
+  "schema_version": 1,
+  "source": {
+    "commit": "d881e84676308404c6947d0218c11f347a6f3a89",
+    "path": "26_5_25F71__vs_26_5_1_25F80",
+    "repository": "https://github.com/blacktop/ipsw-diffs"
+  },
+  "to": {
+    "build": "25F80",
+    "input": "UniversalMac_26.5.1_25F80_Restore.ipsw",
+    "version": "26.5.1"
+  }
+}
