@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "id": "macos-26",
+  "platform": "macOS",
+  "appledb_platform": "macOS",
+  "device": "Mac17,6",
+  "major_version": 26,
+  "anchor": {
+    "version": "26.6.2 RC",
+    "build": "25G82",
+    "released": "2026-08-10T00:00:00Z",
+    "beta": false,
+    "rc": true
+  }
+}
