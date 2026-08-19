@@ -1,0 +1,107 @@
+{
+  "catalog_commit": "7c796028220ff850bf08d253b6b9084f6ff60a96",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/macOS/25x - 26.x/25G82.json",
+      "beta": false,
+      "build": "25G82",
+      "rc": true,
+      "released": "2026-08-10T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_26.6.2_25G82_Restore.ipsw",
+        "sha256": "0362d8afbb5ce2aa7a1d41fc44d1e751d31a29b5f801f0da57308e5e922d0d82",
+        "size": 19772367538,
+        "url": "https://updates.cdn-apple.com/2026SummerFCS/fullrestores/140-83731/E1F24412-C22B-42A2-AE01-09E5E18573E1/UniversalMac_26.6.2_25G82_Restore.ipsw"
+      },
+      "version": "26.6.2 RC"
+    },
+    "appledb": {
+      "commit": "dd7db073bbf06c0af308bd412c2c9b267334b885",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "macOS",
+    "device": "Mac17,6",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/25x - 26.x/25G82.json",
+          "beta": false,
+          "build": "25G82",
+          "rc": true,
+          "released": "2026-08-10T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_26.6.2_25G82_Restore.ipsw",
+            "sha256": "0362d8afbb5ce2aa7a1d41fc44d1e751d31a29b5f801f0da57308e5e922d0d82",
+            "size": 19772367538,
+            "url": "https://updates.cdn-apple.com/2026SummerFCS/fullrestores/140-83731/E1F24412-C22B-42A2-AE01-09E5E18573E1/UniversalMac_26.6.2_25G82_Restore.ipsw"
+          },
+          "version": "26.6.2 RC"
+        },
+        "to": {
+          "appledb_path": "osFiles/macOS/25x - 26.x/25G83.json",
+          "beta": false,
+          "build": "25G83",
+          "rc": false,
+          "released": "2026-08-17T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_26.6.2_25G83_Restore.ipsw",
+            "sha256": "885503b7f4b06609e9a512f2befd40f59730640a3f1233e3892d60affdd51c95",
+            "size": 19772231540,
+            "url": "https://updates.cdn-apple.com/2026SummerFCS/fullrestores/140-75212/A2A24B94-1FC1-45A3-93F7-C51B02AF1F4D/UniversalMac_26.6.2_25G83_Restore.ipsw"
+          },
+          "version": "26.6.2"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/macOS/25x - 26.x/25G83.json",
+      "beta": false,
+      "build": "25G83",
+      "rc": false,
+      "released": "2026-08-17T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_26.6.2_25G83_Restore.ipsw",
+        "sha256": "885503b7f4b06609e9a512f2befd40f59730640a3f1233e3892d60affdd51c95",
+        "size": 19772231540,
+        "url": "https://updates.cdn-apple.com/2026SummerFCS/fullrestores/140-75212/A2A24B94-1FC1-45A3-93F7-C51B02AF1F4D/UniversalMac_26.6.2_25G83_Restore.ipsw"
+      },
+      "version": "26.6.2"
+    },
+    "major_version": 26,
+    "platform": "macOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 23,
+      "selected": 2
+    },
+    "status": "candidate",
+    "track_id": "macos-26"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.708, BuildCommit: 84f5d9aef45149840bdd00b7b8e661088c1d6881"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "0362d8afbb5ce2aa7a1d41fc44d1e751d31a29b5f801f0da57308e5e922d0d82",
+      "size": 19772367538,
+      "url": "https://updates.cdn-apple.com/2026SummerFCS/fullrestores/140-83731/E1F24412-C22B-42A2-AE01-09E5E18573E1/UniversalMac_26.6.2_25G82_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "885503b7f4b06609e9a512f2befd40f59730640a3f1233e3892d60affdd51c95",
+      "size": 19772231540,
+      "url": "https://updates.cdn-apple.com/2026SummerFCS/fullrestores/140-75212/A2A24B94-1FC1-45A3-93F7-C51B02AF1F4D/UniversalMac_26.6.2_25G83_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "b8acb9d70cec5d58e7268baa717ee71862c28854",
+  "source_tag": "payload/26_6_2_25G82_vs_26_6_2_25G83",
+  "workflow_commit": "2e907227510089a3029feda29301c46d246b4c63",
+  "workflow_run": "https://github.com/ipsw-diff/macos-26/actions/runs/32062240282"
+}
